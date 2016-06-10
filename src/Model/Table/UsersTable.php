@@ -31,7 +31,7 @@ class UsersTable extends Table
 
         $this->addBehavior('Timestamp');
 
-        $this->hasMany('Principles', [
+        $this->hasOne('Principles', [
             'foreignKey' => 'user_id'
         ]);
     }

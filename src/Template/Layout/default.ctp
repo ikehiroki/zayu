@@ -13,7 +13,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = 'CakePHP: the rapid development php framework';
+$cakeDescription = 'zayu-no-mei: One today is worth two tomorrow.';
 ?>
 <!DOCTYPE html>
 <html>
@@ -42,7 +42,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         </ul>
         <div class="top-bar-section">
             <ul class="right">
-                
+                <li><a href="<?php echo $this->Url->build(['controller'=>'Users', 'action'=>'add']); ?>" >New User</a></li>
             </ul>
         </div>
     </nav>
