@@ -6,7 +6,7 @@
     </ul>
 </nav>
 <div class="principles index large-9 medium-8 columns content">
-    <h2><?= h($user->email) ?> さんは「<?= h($user->principle->article) ?>」</h2>
+    <h2><?= h($user->email) ?> さんは「<?= $user->principle->article ?>」</h2>
     <h3>みんなの座右の銘</h3>
     <table cellpadding="0" cellspacing="0">
         <thead>
